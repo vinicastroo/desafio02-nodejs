@@ -1,29 +1,29 @@
-# Desafio 02 (Node.js)
+# Challenge 02 (Node.js)
 
-Desafio/exercício de estudo do módulo de Node.js do Ignite (Rocketseat), turma 2021. Implementa uma API REST de usuários, organizada em módulos/use cases (Clean Architecture simplificada), com criação de usuário, listagem de todos os usuários (protegida, exige usuário admin), consulta de perfil por ID e promoção de um usuário a administrador.
+Study challenge/exercise from the Node.js module of Ignite (Rocketseat), 2021 class. Implements a users REST API, organized into modules/use cases (simplified Clean Architecture), with user creation, listing of all users (protected, requires an admin user), profile lookup by ID, and promoting a user to administrator.
 
-## Tecnologias
+## Technologies
 
 - Node.js
 - TypeScript
 - Express
 - uuid
-- swagger-ui-express (documentação da API)
+- swagger-ui-express (API documentation)
 - ESLint + Prettier
-- Jest e Supertest (testes automatizados)
+- Jest and Supertest (automated tests)
 - ts-node-dev
 
-## Como rodar
+## How to run
 
 ```bash
 yarn install
 
-# ambiente de desenvolvimento
+# development environment
 yarn dev
 
-# rodar os testes
+# run the tests
 yarn test
 
-# corrigir problemas de lint
+# fix lint issues
 yarn lint:fix
 ```
